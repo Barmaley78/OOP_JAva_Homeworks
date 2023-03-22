@@ -5,8 +5,8 @@ import java.util.List;
 
 public class RusWordGame extends AbstractGame{
     @Override
-    public GameStatus getGameStatus() {
-        List<String> charList = new ArrayList<String>();
+    List<String> generateCharList() {
+        List<String> charList = new ArrayList<>();
         for (char myChar = 'а'; myChar < 'я'; myChar++) {
             charList.add(Character.toString(myChar));
         }
