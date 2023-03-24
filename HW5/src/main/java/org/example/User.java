@@ -3,13 +3,13 @@ import java.util.Date;
 public abstract class User {
     Date birthDate;
     String fio;
-    int ID;
+    int iD;
 
 
-    public User(Date birthDate, String fio, int ID) {
+    public User(Date birthDate, String fio, int iD) {
         this.birthDate = birthDate;
         this.fio = fio;
-        this.ID = ID;
+        this.iD = iD;
     }
 
     public User() {
