@@ -1,5 +1,10 @@
 package org.example.model;
 import java.util.Date;
+
+/*
+принцип L - использование абстрактного класса. Его нас ледники Учитель и студент  могут
+расширяться новыми свойствами и методами, при этом не ломается общая логика кода
+ */
 public abstract class User {
     Date birthDate;
     String fio;

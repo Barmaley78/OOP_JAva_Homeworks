@@ -2,7 +2,10 @@ package org.example.model;
 
 import java.util.Date;
 import java.util.List;
-
+/*
+ * принцип S - класс отвечает только за действия с объектами типа учитель
+ * принцип D - класс описываюший реальные (конечные) объекты наследуется от абстрактного
+ */
 public class Teacher extends User{
     int exp;
 

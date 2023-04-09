@@ -1,7 +1,9 @@
 package org.example.model;
 
 import java.util.List;
-
+/*
+* принцип S - класс отвечает только за действия с объектами типа группа
+*/
 public class Group{
     int groupID;
     Teacher teacher;
